@@ -1,0 +1,339 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+/* CSS Document */
+/* NAV BAR CSS */
+
+#logo-resize {
+	padding: 7px 15px 0px 15px;
+}
+
+.navbar-right {
+	margin-right: -2px;
+}
+
+.navbar-default {
+	background-color: #6A090A;
+}
+.glyphicon-plus {
+	font-size: 11px;
+}
+.navbar-brand {
+    height: 50px; /*logo will not overhang*/ 
+}
+
+.navbar-toggle {
+    margin-top: 28px; /*adjust toggle position*/ 
+	background-color: #6A090A;
+  }
+/*HOME PAGE IMAGES CSS*/
+
+h2 a:link, a:visited, a:hover, a:active{ /*remove link on images*/
+ 	text-decoration: none;
+}
+/*MAP */
+#googmap{
+  margin-top: 50px;
+}
+
+
+.col-md-2 {
+		
+	padding-bottom: 25px;
+}
+/*BUILDINGS PAGE CSS*/
+#Building-Label h1{
+	color: #6A090A;
+	font-size: 40pt;
+	margin-top: -5px;
+}
+#aboutlabel h2{
+  color: #6A090A;
+  font-size: 25pt;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left:10px;
+}
+#overview {
+  color: black;
+  font-size: 15pt;
+}
+.panel-default{
+	border-color: white; 
+}
+
+.panel-default > .panel-heading{
+	background-color: #6a090a;
+	border-color: #6a090a;
+	cursor: pointer;	
+}
+
+#choices{ /*panel room color*/
+	color:black;
+}
+.panel-title >a{
+	color:white;
+	text-decoration: none;
+	
+}
+.panel-body{
+	background-color: #D5C3C3;
+}
+
+#showstyle{
+	margin-left: 50px;
+}
+#selectoption {
+	padding-top: 30px;
+}
+
+#accordion {
+	padding-bottom: 13em;	
+}
+
+#backbutton, #backbutton >a{
+	background-color: #6a090a;
+	color: white;
+}
+#roomdsn, #roomdsn > a{
+	background-color: #6a090a;
+	border-color: #6a090a;
+	color:white;
+	width:100%;
+	align-content:center;
+	margin: 3px 0px 3px 0;
+}
+@media (max-width: 767px){
+
+  #logout button{
+    margin:5px;
+    width:100%;
+    background-color: white;
+    color:black;
+    text-align: center;
+    border-radius: 2px;
+    line-height: 15px;
+    font-size: 11px;
+  }
+   [class*="col-sm"]{
+      margin-bottom: 15px;
+  }
+	.navbar-brand{ /*image fit on navbar*/
+		height: 90px;
+	}
+	#newsubmit, #newsubmit >a{
+		width:100%;
+
+		background-color: #6a090a;
+		color:white;
+		font-size: 15px;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: white;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+	   color: white;
+	   background-color: #5c0001;
+	}
+	.navbar-brand {
+		height:90px;	
+	}
+}
+
+/* NAV BAR CSS */
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #CF2F32;
+  background-color: #f5f5f5;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: white;
+  background-color: none;
+}
+
+.navbar .nav > li.dropdown.open.active > a:hover, 
+.navbar .nav > li.dropdown.open > a
+{
+   color: #fff;
+   background-color: #5c0001;
+   border-color: #fff;
+}
+
+/*SEARCH CSS*/
+
+#lgsbar{
+	padding: 15px 0px;
+	width: 100%;
+}
+#searchresults{
+  padding: 40px 0 0 50px;
+}
+#barresults{
+  border-color: #C0C0C0;
+  color: #828282;
+  height: 40px; 
+  font-size: 16px;
+  margin-top: 6px;
+
+}
+#searchbar{
+  border-color: #C0C0C0;
+  border-right-color: white;
+	color: #828282;
+  height: 60px; 
+	width: 100%; 
+	font-size: 20px;
+	margin-top: 6px;
+  
+
+}
+#searchbuttonresults{
+
+  border-color: #C0C0C0;
+  background-color: #6a090a;
+  color:white;
+  margin-top:6px;
+  height: 40px;
+  width: 70px;
+}
+#searchbutton{
+  margin-top:6px;
+  border-color: #C0C0C0;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  background-color: #6a090a;
+  color:white;
+  height: 60px;
+  width: 70px;
+}
+#ssbutton{
+
+  border-color: #c0c0c0;
+  background-color: white;
+  color:#6a090a;
+ 
+}
+#smallsearchbar{
+	border-color: #6A090A;
+	color: #828282;
+	font-size: 13px;
+		/*background-color:#ACACAC ;*/
+}
+
+#resultdesign {
+  font-size: 30px;
+}
+
+/******************************/
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #5c0001;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: white;	
+}
+
+/*NEW LOCATION PAGE*/
+#tabzz{
+	margin-top:50px;
+}
+
+#new_loc_success_confirmation{
+  margin-top:6px;
+  border-color: #C0C0C0;
+  background-color: #6a090a;
+  color:white;
+  
+}
+
+#loc_submit_succ{
+  padding: 100px;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color:white;
+    background-color:#6a090a;
+    }
+.nav-pills a, .nav-tabs a{
+	color: black;
+}
+
+#opt-group{
+	padding-top: 25px;
+}
+
+#infos{
+	border-color: #ccc;
+	color: black;
+	height: 35px; 
+	font-size: 12px;
+	margin-top: 2px;
+	
+}
+
+#comment{
+	resize: none;
+}
+
+#rmdscrptn{
+	padding: 25px 0 0 0;
+}
+@media (min-width: 768px){
+   #homerowpadding{
+      margin-top:15px;
+  }
+	#newsubmit, #newsubmit >a{
+	background-color: #6a090a;
+	color:white;
+	font-size: 15px;
+  }
+  #logout button{
+  margin-top: 13px;
+  background-color: white;
+  color:black;
+  text-align: center;
+  border-radius: 2px;
+  line-height: 10px;
+  }
+
+}
+
+
+/*HOVER EFFECT*/
+.imageWrapper {
+    position: relative;
+  
+}
+.imageWrapper img {
+    display: block;
+}
+.imageWrapper .cornerLink {
+    opacity: 0;
+    position: absolute;
+    bottom: -15px;
+    left: 0px;
+    right: 0px;
+    padding: 2px 0px;
+    color: #6a090a;
+    background: transparent;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+    
+}
+.imageWrapper:hover .cornerLink {
+    opacity: 0.8;
+}
+
